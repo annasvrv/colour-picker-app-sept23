@@ -1,0 +1,71 @@
+.App {
+  max-width: 600px;
+  height: fit-content;
+  margin: 0 auto;
+  border: 0.5px solid black;
+  border-radius: 20px;
+  /* background-color: rgb(110, 199, 221); */
+}
+
+h2 {
+  text-align: center;
+  color: rgb(21, 112, 135);
+}
+
+.colourBox {
+  width: 250px;
+  height: 250px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  display: grid;
+  place-content: center;
+}
+
+.colourBox p {
+  text-align: center;
+  /* color: rgb(21, 112, 135); */
+  font-weight: 700;
+}
+
+form {
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+label {
+  display: none;
+}
+
+input {
+  padding: 10px 65px 10px 5px;
+  margin-bottom: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+}
+
+button {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(21, 112, 135);
+  font-weight: 700;
+  padding: 10px;
+  border: 1px solid rgba(21, 112, 135, 0.8);
+  border-radius: 5px;
+  background-color: rgba(21, 112, 135, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+}
